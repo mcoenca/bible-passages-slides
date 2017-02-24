@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/jlantunez/webslides
+
+      Thanks,
+      @jlantunez.
+    -->
+
+    <!-- SEO -->
+    <title>WebSlides: Making HTML presentations easy</title>
+    <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
+    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/jlantunez/webslides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/jlantunez" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>jlantunez</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides" class="vertical">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 1200px / <div class="wrap size-50"> = 600px;
+        -->
+
+        <section class="bg-black" style="background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);">
+          <!--.wrap = container 1200px -->
+          <div class="wrap aligncenter">
+            <p class="text-subtitle">Bienvenue sur </p>
+            <h1 class="text-landing">la bible des passeurs</h1>
+            <br><br>
+            <p class="text-intro">
+              Un guide pour t'introduire à l'esprit créatif de Passages, désamorcer les appréhensions les plus fréquentes, et t'encourager à tenter l'aventure !
+            </p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black slide-top" style="background-image: linear-gradient(to bottom, #e8198b 0%, #6713d2 100%);">
+
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <p class="text-context">Introduction</p>
+            <h2>Passages, c’est un cadavre exquis du XXIè siècle</h2>
+            <br/>
+
+            <div class="grid ms vertical-align">
+              <div class="column">
+                <p class="text-intro">
+                   Tu rejoins un groupe de cinq personnes. Ensuite, chaque membre du groupe travaille individuellement, l'un après l'autre.
+                   <br>
+                   <br>
+                   Le premier produit quelque chose.
+
+                   <br>
+                   <br>
+                   Le second récupère sa production et la transforme, ou s’en inspire pour créer quelque chose de tout à fait différent.
+
+                   <br>
+                   <br> 
+                   Le troisième… tu as déjà compris le truc, non ? 
+
+                   <br>
+                   <br>
+                   Quand le dernier termine son tour, le groupe réfléchit – collectivement cette fois – à une façon de présenter l’œuvre (qui à ce stade est souvent une collection de « trucs ») lors de la soirée Passages.
+
+                   <br>
+                   <br>
+                  
+
+                </p>
+              </div>
+              <div class="column">
+                <figure>
+                  <img src="static/images/3iconeslong.png" alt="Pixel Phone">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="aligncenter bg-black" style="background-image: linear-gradient(to bottom, #6713d2 0%, #ffc8a9 110%);">
+          <div class="wrap">
+            <h2><strong>Sommaire</strong></h2>
+            <p class="text-intro">Ce guide veut répondre à toutes les interrogations que tu peux te poser après la lecture du paragraphe ci-dessus :)</p>
+            <ul class="flexblock border">
+              <li>
+                <!--div required = padding li or li>a-->
+                <div>
+                  <h4>État d'esprit</h4>
+                  <ol>
+                    <li><a target="_blank" href="#slide=3">Les contraintes boostent la créativité</a></li>
+                    <li><a target="_blank" href="#slide=4">Processus > résultat</a></li>
+                    <li><a target="_blank" href="#slide=5">Mentalité prototype !</a></li>
+                    <li><a target="_blank" href="#slide=6">Inclusion radicale</a></li>
+                  </ol>
+                </div>
+              </li>
+              <li>
+                <!--div required = padding li or li>a-->
+                <div>
+                  <h4>Avant Passages</h4>
+                  <ol>
+                    <li><a target="_blank" href="#slide=33">Je n'ai pas le temps !</a></li>
+                    <li><a target="_blank" href="#slide=37">Je ne suis pas créatif !</a></li>
+                    <li><a target="_blank" href="#slide=39">Je ne sais pas faire !</a></li>
+                    <li><a target="_blank" href="#slide=40">J'ai peur de passer un truc imparfait !</a></li>
+                  </ol>
+                </div>
+              </li>
+              <li>
+                <!--div required = padding li or li>a-->
+                <div>
+                  <h4>Pendant son tour</h4>
+                  <ol>
+                    <li><a target="_blank" href="#slide=51">J'ai pas d'idées...</a></li>
+                    <li><a target="_blank" href="#slide=56">Je suis 1er, je fais quoi ?</a></li>
+                    <li><a target="_blank" href="#slide=62">Je suis dernier, je fais quoi ?</a></li>
+                    <li><a target="_blank" href="#slide=66">J'ai reçu du code !</a></li>
+                    <li><a target="_blank" href="#slide=70">On est bloqués pour la présentation</a></li>
+                  </ol>
+                </div>
+              </li>
+              <li>
+                <!--div required = padding li or li>a-->
+                <div>
+                  <h4>Pour la présentation</h4>
+                  <p class="text-subtitle">Bien communiquer...</p>
+                  <ol>
+                    <li><a target="_blank" href="#slide=95">...son travail.</a></li>
+                    <li><a target="_blank" href="#slide=101">...avec les invités.</a></li>
+                    <li><a target="_blank" href="#slide=103">...sur le processus créatif.</a></li>
+                    <li><a target="_blank" href="#slide=108">Bon état d'esprit !</a></li>
+                  </ol>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black slide-top" style="background-image: linear-gradient(to bottom, #e8198b 0%, #6713d2 100%);">
+
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <p class="text-context">État d'esprit</p>
+            <br/>
+            <div class="grid ms vertical-align">
+              <div class="column">
+                <h2>
+                   Les contraintes sont fertiles.
+                </h2>
+                <br/>
+                <p class="text-intro">Les nôtres, bien sûr : processus créatif, temps courts, deadlines et position dans le groupe.
+                <br/>
+                <br/>
+                Mais surtout celles que vous vous imposerez vous même.
+                <br/>
+                <br/>
+                Plus il y a de cadres à la création, comme n'utiliser qu'un seul instrument, deux couleurs, uniquement Paint ou Powerpoint, plus l'imagination s'exprime <strong>facilement</strong> !
+                </p>
+              </div>
+              <div class="column">
+                <figure>
+                  <img src="static/images/3iconeslong.png" alt="Pixel Phone">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black slide-top" style="background-image: linear-gradient(to bottom, #e8198b 0%, #6713d2 100%);">
+
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <p class="text-context">État d'esprit</p>
+            <br/>
+            <div class="grid ms vertical-align">
+              <div class="column">
+                <h2>
+                   Penser chemin plutôt que résultat.
+                </h2>
+                <br/>
+                <p class="text-intro">Si votre idée est complexe, la décomposer en une suite de petites actions simples à essayer la rend plus atteignable.
+                <br/>
+                <br/>
+                Comme ça, même si vous n'arrivez pas au bout de votre démarche dans votre semaine, vous pourrez quand même passer votre intention, vos ressources, et une ou deux tentatives au suivant !
+                <br/>
+                </p>
+              </div>
+              <div class="column">
+                <figure>
+                  <img src="static/images/3iconeslong.png" alt="Pixel Phone">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black slide-top" style="background-image: linear-gradient(to bottom, #e8198b 0%, #6713d2 100%);">
+
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <p class="text-context">État d'esprit</p>
+            <br/>
+            <div class="grid ms vertical-align">
+              <div class="column">
+                <h2>
+                  Assumer de faire des choses incomplètes. 
+                </h2>
+                <br/>
+                <p class="text-intro">La création, c'est fascinant car sale, erratique, et dégoulinant de sueur.
+                <br/>
+                <br/>
+                À Passages, nous glissons un doigt sur cette sueur et nous émerveillons ensemble des <strong>"Comment ?"</strong> et des <strong>"Pourquoi ?"</strong> qui disparaissent dans la plastique des musées et des média.
+                <br/>
+                <br/>
+                Nous ne jugeons pas une subjective perfection du <strong>"Quoi ?"</strong>. N'ayez pas peur de passer des brouillons ou de schémas !
+                <br/>
+                </p>
+              </div>
+              <div class="column">
+                <figure>
+                  <img src="static/images/3iconeslong.png" alt="Pixel Phone">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black slide-top" style="background-image: linear-gradient(to bottom, #e8198b 0%, #6713d2 100%);">
+
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <p class="text-context">État d'esprit</p>
+            <br/>
+            <div class="grid ms vertical-align">
+              <div class="column">
+                <h2>
+                  Inclusion radicale. Des créateurs comme des créations.
+                </h2>
+                <br/>
+                <p class="text-intro">Il n'y a pas de <i>bon</i> passage. Ni de <i>bon</i> passeur. C'est un jeu et une expérience ouverte à <strong>tous</strong>, sans distinction de compétences ou de personnalités.
+                <br/>
+                <br/>
+                Chacun y est donc <strong>accepté</strong>, peu importe son implication et son emploi du temps.
+                <br/>
+                <br/>
+                Chacun y est donc chaleureusement <strong>remercié</strong> (avec grand respect), pour sa participation, peu importe sa forme et son contenu.
+                <br/>
+                <br/>
+                Merci encore à tous nos participants passés et futurs :)
+                <br/>
+                </p>
+              </div>
+              <div class="column">
+                <figure>
+                  <img src="static/images/3iconeslong.png" alt="Pixel Phone">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container 1200px -->
+          <div class="wrap size-50 aligncenter">
+            <h2><strong>Why WebSlides?</strong></h2>
+            <p class="text-intro">Good karma and productivity.</p>
+            <div class="bg-white shadow">
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>An opportunity to engage.</h2>
+                  <p>WebSlides is about telling the story, and sharing it in a beautiful way. Hypertext and clean code as narrative elements.</p>
+                </li>
+                <li>
+                  <h2>Work better, faster.</h2>
+                  <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="demos/index.html" title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
+                </li>
+              </ul>
+            </div>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container 1200px -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>WebSlides is really easy</strong></h3>
+                <p class="text-intro">Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual slide. </p>
+                <p>Code is clean and scalable. It uses <strong>intuitive markup</strong> with popular naming conventions. There's no need to overuse classes or nesting. <strong>Making an HTML presentation has never been so fast</strong>.</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>&lt;article id="webslides"&gt;
+  <span class="code-comment">&lt;!-- Slide 1 --&gt;</span>
+  &lt;section&gt;
+    &lt;h1&gt;Design for trust&lt;/h1&gt;
+  &lt;/section&gt;
+  <span class="code-comment">&lt;!-- Slide 2 --&gt;</span>
+  &lt;section class="bg-primary"&gt;
+    &lt;div class="wrap"&gt;
+      &lt;h2&gt;.wrap = container 1200px&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Features</h2>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <span>&rarr;</span>
+                    Simple Navigation
+                  </h2>
+                  with arrow keys and swipe.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Permalinks
+                  </h2>
+                  Go to a specific slide.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-clock-o">
+                      <use xlink:href="#fa-clock-o"></use>
+                    </svg>
+                    Slide Counter
+                  </h2>
+                  Current/Total number.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <span>40<sup>+</sup></span>
+                    Beautiful Components
+                  </h2>
+                  Covers, cards, quotes...
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-text-height">
+                      <use xlink:href="#fa-text-height"></use>
+                    </svg>
+                    Vertical Rhythm
+                  </h2>
+                  Use multiples of 8.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <span>500<sup>+</sup></span>
+                    SVG Icons
+                  </h2>
+                  Font Awesome Kit.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2><strong>WebSlides Demos</strong></h2>
+            <p>Contribute on <a href="https://github.com/jlantunez/webslides" title="Contribute on Github">Github</a>. <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="demos/why-webslides.html" title="Why WebSlides?">
+                  <figure>
+                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
+                    <figcaption>
+                      <h2>Why WebSlides?</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="demos/landings.html" title="Landings">
+                  <figure>
+                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
+                    <figcaption>
+                      <h2>Landings</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="demos/portfolios.html" title="Portfolios">
+                  <figure>
+                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
+                    <figcaption>
+                      <h2>Portfolios</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="demos/keynote.html" title="Apple Keynote">
+                  <figure>
+                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
+                    <figcaption>
+                      <h2>Apple Keynote</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h4>
+                  <svg class="fa-life-ring">
+                    <use xlink:href="#fa-life-ring"></use>
+                  </svg>
+                  <strong>Guides</strong>
+                </h4>
+                <p>If you need some help, here's just two tutorials. Just a basic knowledge of HTML is required:</p>
+                <ul class="description">
+                  <li><a href="demos/components.html" title="WebSlides Components">WebSlides Components</a>.</li>
+                  <li><a href="demos/classes.html" title="WebSlides Classes">WebSlides Classes</a>.</li>
+                </ul>
+              </div>
+              <div class="column">
+                <figure><img src="static/images/setup.png" alt="WebSlides Files"></figure>
+              </div>
+              <div class="column">
+                <h4>
+                  <svg class="fa-cubes">
+                    <use xlink:href="#fa-cubes"></use>
+                  </svg>
+                  <strong>Built to expand</strong>
+                </h4>
+                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level. We love these solutions:</p>
+                <ul class="description">
+                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
+                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
+                </ul>
+              </div>
+            </div>
+            <!--end .grid -->
+          </div>
+        </section>
+        <section class="aligncenter">
+          <!-- .wrap = container 1200px -->
+          <div class="wrap">
+            <h2><strong>Ready to Start?</strong> </h2>
+            <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
+            <p>
+              <a href="https://github.com/jlantunez/webslides/archive/master.zip" class="button" title="Download WebSlides">
+                <svg class="fa-cloud-download">
+                  <use xlink:href="#fa-cloud-download"></use>
+                </svg>
+                Free Download
+              </a>
+              <span class="try">
+                <a href="https://www.paypal.me/jlantunez/8" title="Thanks :)">
+                  <svg class="fa-paypal">
+                    <use xlink:href="#fa-paypal"></use>
+                  </svg>
+                  Pay what you want.
+                </a>
+              </span>
+            </p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- Remove #webslides element :)
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/jlantunez/webslides">open source solution</a>, by <a href="https://twitter.com/jlantunez">@jlantunez</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>

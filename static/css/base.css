@@ -1344,20 +1344,21 @@ section,.slide
   justify-content: center;
   /*Fixed/Visible header? padding-top: 12rem; */
   padding: 2.4rem;
+  padding-bottom: 12rem;
   word-wrap: break-word;
   page-break-after: always;
   min-height: 100vh; /*Fullscreen*/
   /* Prototyping? min-height: 720px (Baseline: 8px = .8rem)*/
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   section, .slide {
     /*padding-top: 12rem;*/
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
   section, .slide {
     /*padding-top: 12rem;*/
     padding-bottom: 12rem;
